@@ -1,13 +1,13 @@
 /* Thème clair par défaut */
 body {
     background-color: #ffffff;
-    color: #000000;
+    color: #7c3434;
 }
 
 /* Thème sombre avec la classe "dark" */
 body.dark {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #d82828;
+    color: #000000;
 }
 
 /* Style du bouton switch */
