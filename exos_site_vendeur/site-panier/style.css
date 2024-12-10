@@ -10,25 +10,22 @@ body {
     background-color: black;
    
     color: white;
-
    
    }
 header {
-    /*background: linear-gradient(to right, #ffad33, #f8f8f8); /* Dégradé d'orange à blanc */
+    background: linear-gradient(to right, #d49d05, #f8f8f8); /* Dégradé d'orange à blanc */
     color: #4c4c4c; /* Brun foncé */
     text-align: center;
     padding: 20px 0;
 }
 
-
-
-
-
-
-body.dark {
-    background-color: #d82828;
-    color: #000000;
+header.dark {
+    background: linear-gradient(to right, #161616, #f8f8f8); /* Dégradé d'orange à blanc */
+    color: #fff7f7; /* Brun foncé */
+    text-align: center;
+    padding: 20px 0;
 }
+
 
 h1 {
      
@@ -40,6 +37,16 @@ h1 {
     
 }
 
+
+h1.dark {
+     
+    font-size: 2em; /* Taille de la police plus grande */
+    color: rgb(26, 26, 26); /* Couleur du texte */
+    text-transform: uppercase; /* Convertit le texte en majuscules */
+    letter-spacing: 2px; /* Espacement entre les lettres */
+    margin-bottom: 20px; /* Marge inférieure pour plus d'espace */
+
+}
 header a img{
     width: 40px; /* Ajustez la largeur selon vos besoins */
     height: auto; /* Cela maintient le rapport hauteur/largeur */
@@ -71,14 +78,8 @@ li span img{
     margin: 20px;
 }
 
-.article {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 10px;
-    width: 200px;
-    text-align: center;
-}
+
+
 
 .article:hover {
     background: linear-gradient(to left, #ffad33, #f8f8f8)
@@ -205,14 +206,7 @@ nav ul li:hover {
 
    
 } 
-
-
-
-
-
-
-
-
+/* Style du bouton switch */
 .switch {
     position: relative;
     display: inline-block;
@@ -262,5 +256,3 @@ input:checked + .slider {
 input:checked + .slider:before {
     transform: translateX(26px);
 }
-
-
